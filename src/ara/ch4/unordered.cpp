@@ -16,7 +16,7 @@ int main(){
   }
   cout<<endl;
   // unordered_map
-  map<int, double> um={
+  unordered_map<int, double> um={
     {35,4.5},
     {32,3.8},
     {20,3.9}
