@@ -19,9 +19,9 @@ vector<int> solution(vector<int> numbers) {
             result.push_back(numbers.at(i) + numbers.at(j)); //1 
         }
     }
-    sort(result.begin(),result.end());
-    auto it = unique(result.begin(), result.end());
-    result.erase(it, result.end());
+    sort(result.begin(),result.end()); // nlogn
+    auto it = unique(result.begin(), result.end()); // n
+    result.erase(it, result.end()); // n
     return result; // -> n^2?
     
 }

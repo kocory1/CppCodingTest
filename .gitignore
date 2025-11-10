@@ -2,3 +2,20 @@
 
 .DS_Store
 
+# cpp 파일을 제외한 모든 파일 무시
+# 모든 파일을 무시
+*
+
+# 디렉토리는 추적
+!*/
+
+# cpp 파일만 추적
+!*.cpp
+
+# gitignore 자체는 추적
+!.gitignore
+
+# README 파일도 추적 (있는 경우)
+!README.md
+!README.txt
+
