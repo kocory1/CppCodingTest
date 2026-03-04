@@ -11,7 +11,7 @@
 
 # cpp 파일만 추적
 !*.cpp
-
+!*.py
 # gitignore 자체는 추적
 !.gitignore
 
